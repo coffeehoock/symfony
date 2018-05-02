@@ -1,3 +1,14 @@
+{% block globalInclude %}
 <header>
-    <div>header</div>
+    <div id="global-logo">
+        <img src="" alt="">
+    </div>
+    {% block menu %}
+        <div>
+            <a href="">home</a>
+            <a href="">blog</a>
+            <a href="">news</a>
+        </div>
+    {% endblock %}
 </header>
+{% endblock %}

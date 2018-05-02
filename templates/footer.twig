@@ -1,3 +1,8 @@
-<footer>
-    <div>footer</div>
-</footer>
+{% extends 'header.twig' %}
+{% block globalInclude %}
+    <footer>
+        {% block menu %}
+            {{ parent() }}
+        {% endblock %}
+    </footer>
+{% endblock %}

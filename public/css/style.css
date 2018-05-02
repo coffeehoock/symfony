@@ -1,3 +1,45 @@
+*{
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+a{
+    text-decoration: none;
+    color: #989898;
+    padding: 0 10px;
+}
 body{
     font-family: "Varela Round";
+    color: #989898;
+    font-size: 25px;
+}
+header,
+footer{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background: #bfbfbf26;
+    position: fixed;
+}
+footer{
+    background: #414141;
+    position: absolute;
+    bottom: 0px;
+}
+header div,
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+}
+
+header div a:hover,
+footer div a:hover{
+    color: #da5b5bde;
+    transition: color .3s;
 }
