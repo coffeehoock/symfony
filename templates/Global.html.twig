@@ -15,20 +15,26 @@
     {% endblock %}
 </head>
 <body>
-{% block body %}
-    {% include 'header.twig' %}
+<div class="container">
+    {% block body %}
+        {% include 'header.html.twig' %}
 
-    {% block content %}{% endblock %}
+        {% block content %}
+            <div>
 
-    {% include 'footer.twig' %}
-{% endblock %}
+            wdwd
 
+            </div>
+        {% endblock %}
 
-{% block JS %}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="{{ asset('js/main.js') }}"></script>
-{% endblock %}
+        {% include 'footer.html.twig' %}
+    {% endblock %}
+</div>{#container#}
 
+    {% block JS %}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="{{ asset('js/main.js') }}"></script>
+    {% endblock %}
 </body>
 </html>
 {#{{ dump() }}#}

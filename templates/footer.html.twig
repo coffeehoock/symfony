@@ -1,0 +1,11 @@
+{% extends 'header.html.twig' %}
+{% block globalInclude %}
+    <footer>
+        {% block menu %}
+            {{ parent() }}
+        {% endblock %}
+        <div id="global-logo_footer" class="centred">
+            <img src="http://detectfire.info/public/frontend/img/fire.png" alt="">
+        </div>
+    </footer>
+{% endblock %}
