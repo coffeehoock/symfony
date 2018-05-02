@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +53,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Oops</find>
-      <find>Oops! An Error Occurred</find>
+      <find />
       <find>status_code</find>
       <find>app_dev.php</find>
     </findStrings>
@@ -80,6 +78,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -176,7 +177,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1920" />
+    <option name="x" value="-3840" />
     <option name="y" value="-6" />
     <option name="width" value="1920" />
     <option name="height" value="1086" />
@@ -193,11 +194,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="symfony" type="cbb8eebc:String" user="symfony" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="public" type="cbb8eebc:String" user="public" />
             </path>
           </expand>
           <select />
@@ -271,16 +267,15 @@
       <option name="presentableId" value="Default" />
       <updated>1525252994149</updated>
       <workItem from="1525252995508" duration="1064000" />
-      <workItem from="1525254064451" duration="534000" />
+      <workItem from="1525254064451" duration="1282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1598000" />
+    <option name="totallyTimeSpent" value="2346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-6" width="1920" height="1086" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2529412" />
       <window_info anchor="bottom" id="TODO" order="6" />
