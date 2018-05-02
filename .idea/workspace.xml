@@ -78,7 +78,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Oops</find>
-      <find>Oops! An Error Occurred</find>
+      <find />
       <find>status_code</find>
       <find>app_dev.php</find>
       <find>RewriteCond</find>
@@ -219,6 +219,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1920" />
     <option name="y" value="-6" />
     <option name="width" value="1920" />
     <option name="height" value="1086" />
