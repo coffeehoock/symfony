@@ -83,7 +83,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Oops</find>
-      <find>Oops! An Error Occurred</find>
+      <find />
       <find>status_code</find>
       <find>app_dev.php</find>
       <find>RewriteCond</find>
