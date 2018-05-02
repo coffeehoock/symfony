@@ -21,9 +21,17 @@
         {% block javascripts %}
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="{{ asset('js/main.js') }}"></script>
+
+            {% autoescape 'js' %}
+            <script>
+				{#var route = "{{ path('blog_show', {'slug': 'my-blog-post'})|escape('js') }}";#}
+            </script>
+            {% endautoescape %}
+
         {% endblock %}
     </body>
 </html>
-{% autoescape 'js' %}
 
-{% endautoescape %}
+
+
+{{ dump() }}
