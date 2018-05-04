@@ -1,5 +1,5 @@
 var Encore = require('@symfony/webpack-encore');
-
+var autoprefixer = require('autoprefixer');
 
 Encore
 
@@ -11,7 +11,8 @@ Encore
     .enableSourceMaps(!Encore.isProduction())
     .enableSassLoader()
     .enableCoffeeScriptLoader()
-     // .addAliases({'@': './'})
+
+    .enablePostCssLoader()
 
     // uncomment to create hashed filenames (e.g. app.abc123.css)
     // .enableVersioning(Encore.isProduction())
@@ -20,6 +21,9 @@ Encore
     .addEntry('coffee/app', './assets/coffee/app.coffee')
     .addEntry('js/app', './assets/js/app.js')
     .addStyleEntry('css/app', './assets/css/app.sass')
+
+    // uncomment if you use Sass/SCSS files
+    // .enableSassLoader()
 
     // uncomment for legacy applications that require $/jQuery as a global variable
     // .autoProvidejQuery()
