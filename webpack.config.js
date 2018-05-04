@@ -18,15 +18,20 @@ Encore
     // .enableVersioning(Encore.isProduction())
 
     // uncomment to define the assets of the project
-    .addEntry('coffee/app', './assets/coffee/app.coffee')
-    .addEntry('js/app', './assets/js/app.js')
-    .addStyleEntry('css/app', './assets/css/app.sass')
+    .addEntry('./../../assets/js/coffeecompill', './assets/coffee/app.coffee')
+    .addEntry('js/app', './assets/index.js')
+    // .addStyleEntry('css/app', './assets/css/app.sass')
 
     // uncomment if you use Sass/SCSS files
     // .enableSassLoader()
 
     // uncomment for legacy applications that require $/jQuery as a global variable
     // .autoProvidejQuery()
-;
+    .autoProvidejQuery({
+        $: 'jquery',
+        jQuery: 'jquery'
+    })
+    .enableBuildNotifications();
+
 
 module.exports = Encore.getWebpackConfig();
