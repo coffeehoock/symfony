@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -56,8 +53,8 @@
       <file leaf-file-name="postcss.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/postcss.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="510">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -75,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="36" />
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -291,7 +288,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3841" />
+    <option name="x" value="-1921" />
     <option name="y" value="-11" />
     <option name="width" value="1922" />
     <option name="height" value="1092" />
@@ -597,7 +594,7 @@
       <workItem from="1525336075535" duration="7649000" />
       <workItem from="1525360433506" duration="8836000" />
       <workItem from="1525377063298" duration="23447000" />
-      <workItem from="1525427787923" duration="7467000" />
+      <workItem from="1525427787923" duration="7751000" />
     </task>
     <task id="LOCAL-00001" summary="coreected">
       <created>1525258012151</created>
@@ -715,7 +712,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85258000" />
+    <option name="totallyTimeSpent" value="85542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,15 +724,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3841" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="-9601" y="-11" width="1922" height="1092" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5037433" side_tool="true" visible="true" weight="0.3347413" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49625668" visible="true" weight="0.3347413" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.2721925" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49625668" visible="true" weight="0.3347413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.2721925" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="right" id="Database" order="3" />
@@ -1097,7 +1094,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="36" />
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1111,14 +1108,14 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="510">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>

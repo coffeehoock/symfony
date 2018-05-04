@@ -17,6 +17,13 @@ module.exports = {
             'last 15 version'
             ] }
     },
+    new ExtractTextPlugin("styles.css"),
+    new StaticSiteGeneratorPlugin('main', data.routes, data),
+    new BrowserSyncPlugin({
+        host: 'localhost',
+        port: 3000,
+        proxy: 'http://localhost:8080/'
+    }),
     sourceMap: true
 
 };
