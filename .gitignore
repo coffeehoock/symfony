@@ -9,12 +9,12 @@
 ###> symfony/webpack-encore-pack ###
 /node_modules/
 /public/build/
-npm-debug.log
-yarn-error.log
-packageK-lock.json
-symfony.lock
-composer.lock
-yarn-error.log
+/npm-debug.log
+/yarn-error.log
+/packageK-lock.json
+/symfony.lock
+/composer.lock
+/yarn-error.log
 ###< symfony/webpack-encore-pack ###
 
 ###> symfony/phpunit-bridge ###
