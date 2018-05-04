@@ -1,2 +1,2 @@
-// import 'js/*';
-window.$ = window.jQuery = require('jquery');
+// import 'js/app.js'
+// window.$ = window.jQuery = require('jquery');
