@@ -8,12 +8,22 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class TController extends Controller
 {
     /**
-     * @Route("/", name="t")
+     * @Route("/", name="home")
      */
-    public function index()
+    public function home()
     {
         return $this->render('Global.html.twig', [
             'controller_name' => 'TController',
         ]);
+        
     }
+	/**
+	 * @Route("/news", name="news")
+	 */
+	public function news()
+	{
+	  return $this->render('content/news.html.twig', [
+		'controller_name' => 'TController',
+	  ]);
+	}
 }

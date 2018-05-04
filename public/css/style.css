@@ -53,7 +53,11 @@ footer div{
     align-items: center;
     width: auto;
 }
-
+header div a,
+footer div a{
+    /*color: #da5b5bde;*/
+    transition: color .3s;
+}
 header div a:hover,
 footer div a:hover{
     color: #da5b5bde;

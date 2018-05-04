@@ -5,10 +5,8 @@
     </div>
     {% block menu %}
         <div>
-            <a href="">home</a>
-            <a href="">blog</a>
-            <a href="">news</a>
-            <a href="">galery</a>
+            <a href="{{ path('home') }}">home</a>
+            <a href="{{ path('news') }}">news</a>
         </div>
     {% endblock %}
 </header>

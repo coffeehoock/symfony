@@ -8,26 +8,33 @@
     {% block  title %}
         <title>spiritual world</title>
     {% endblock %}
+    {% block favicon %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('http://detectfire.info/public/frontend/img/fire.png') }}" />
+    {% endblock %}
     {% block CSS %}
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
     {% endblock %}
 </head>
 <body>
 <div class="container">
     {% block body %}
-        {% include 'header.html.twig' %}
+        {% include 'header.html.twig' only %}
 
-        {% block content %}
-            <div>
+        {% set foo = app.request.getRequestUri() %}
+        {{ foo }}
+        {{ app.request.uri }}
+        {% if foo is null %}
+            {% include 'content/home.html.twig' %}
+        {% endif %}
 
-            wdwd
 
-            </div>
-        {% endblock %}
+        {{ asset('../') }}
 
-        {% include 'footer.html.twig' %}
+
+        {% include 'footer.html.twig' only %}
     {% endblock %}
 </div>{#container#}
 
