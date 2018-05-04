@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -314,27 +315,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="symfony" type="cbb8eebc:String" user="symfony" />
             </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="public" type="cbb8eebc:String" user="public" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="public" type="cbb8eebc:String" user="public" />
-              <item name="build" type="cbb8eebc:String" user="build" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -584,7 +564,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95510000" />
+    <option name="totallyTimeSpent" value="95820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,15 +576,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="-1921" y="-11" width="1922" height="1092" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5058824" side_tool="true" visible="true" weight="0.33579725" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49893048" weight="0.32946146" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49411765" visible="true" weight="0.33579725" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.27540106" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49411765" visible="true" weight="0.33579725" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.27540106" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49893048" weight="0.32946146" />
