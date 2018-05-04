@@ -1,6 +1,7 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
     <option name="LINE_SEPARATOR" value="&#10;" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
     <CoffeeScriptCodeStyleSettings>
       <option name="SPACE_WITHIN_RANGE_BRACKETS" value="true" />
       <option name="SPACE_WITHIN_OBJECT_BRACES" value="true" />

@@ -11,8 +11,8 @@ Encore
     .enableSourceMaps(!Encore.isProduction())
     .enableSassLoader()
     .enableCoffeeScriptLoader()
-
     .enablePostCssLoader()
+
 
     // uncomment to create hashed filenames (e.g. app.abc123.css)
     // .enableVersioning(Encore.isProduction())
