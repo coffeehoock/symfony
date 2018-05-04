@@ -1,4 +1,3 @@
-let version = 6;
 module.exports = {
     plugins: {
         // include whatever plugins you want

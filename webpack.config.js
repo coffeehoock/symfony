@@ -1,5 +1,5 @@
 var Encore = require('@symfony/webpack-encore');
-var autoprefixer = require('autoprefixer');
+
 
 Encore
 
@@ -11,7 +11,7 @@ Encore
     // .enableSourceMaps(!Encore.isProduction())
     .enableSassLoader()
     .enableCoffeeScriptLoader()
-    .enablePostCssLoader((conf , l) => {
+    .enablePostCssLoader((conf) => {
         conf.config = {
             path: 'config/postcss.config.js'
         };
@@ -42,7 +42,7 @@ Encore
     .configureBabel((conf) => {
         conf.presets.push = {
             targets: {
-                browsers: "> 10%"
+                browsers: "> 10%",
             }
         };
     })
