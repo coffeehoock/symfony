@@ -17,10 +17,5 @@ module.exports = {
             'last 15 version'
             ] }
     },
-        BrowserSyncPlugin:{
-        proxy: ['symfony.su']
-    },
-    sourceMap: true
-
 };
 

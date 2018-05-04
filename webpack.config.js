@@ -8,7 +8,7 @@ Encore
     // the public path used by the web server to access the previous directory
     .setPublicPath('/build')
     .cleanupOutputBeforeBuild()
-    .enableSourceMaps(!Encore.isProduction())
+    // .enableSourceMaps(!Encore.isProduction())
     .enableSassLoader()
     .enableCoffeeScriptLoader()
     .enablePostCssLoader()
@@ -20,7 +20,7 @@ Encore
     // uncomment to define the assets of the project
     .addEntry('./../../assets/js/coffeecompill', './assets/coffee/app.coffee')
     .addEntry('js/app', './assets/index.js')
-    // .addStyleEntry('css/app', './assets/css/app.sass')
+    .addStyleEntry('css/app', './assets/css/app.sass')
 
     // uncomment if you use Sass/SCSS files
     // .enableSassLoader()
