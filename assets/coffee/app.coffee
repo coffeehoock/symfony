@@ -1,6 +1,13 @@
-import './../js/coffeecompill.js'
+# module.exports =
+#     cool: "stuff"
+#     answer: 42
+#     external: require "./cup2.coffee"
+#     again: require "./cup2"
 
-console.log 'coffee ess'
+import './jq.js'
+window.$ = window.jQuery = require 'jquery'
+
+
 class evalAsync
 	contain: ( @nme ,@ge ) ->
 		sun = ->
@@ -8,3 +15,5 @@ class evalAsync
 				a: 3
 				s: 4
 	goel: () ->
+
+

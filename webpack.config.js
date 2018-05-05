@@ -13,7 +13,7 @@ Encore
     .enableCoffeeScriptLoader()
     .enablePostCssLoader((conf) => {
         conf.config = {
-            path: 'config/postcss.config.js'
+            path: 'config/postcss.config.js',
         };
     })
 
@@ -22,18 +22,18 @@ Encore
 
     // uncomment to define the assets of the project
     // .addEntry('./../../assets/js/coffeecompill', './assets/coffee/app.coffee')
-    .addEntry('js/app', './assets/js/app.js')
-    .addStyleEntry('css/app', './assets/css/app.sass')
+    .addEntry('js/app', './assets/coffee/app.coffee')
+    // .addEntry('js/app', './assets/js/app.js')
+    .addStyleEntry('css/app', './assets/sass/app.sass')
 
     // uncomment if you use Sass/SCSS files
     // .enableSassLoader()
 
     // uncomment for legacy applications that require $/jQuery as a global variable
-    // .autoProvidejQuery()
-    // .autoProvidejQuery({
-    //     $: 'jquery',
-    //     jQuery: 'jquery'
-    // })
+    .autoProvidejQuery({
+        $: 'jquery',
+        jQuery: 'jquery'
+    })
 
     // Enable React/JSX (babel-preset-react)
     .enableReactPreset()

@@ -1,0 +1,3 @@
+#!/bin/bash
+browser-sync start --proxy "symfony.su/" --files "./public/build/**/*.*" ;
+./node_modules/.bin/encore dev --watch
