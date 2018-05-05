@@ -21,7 +21,7 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production",
-        "go": "echo './git.upload'  | bash"
+        "go": "echo './git.upload' | bash"
     },
     "dependencies": {
         "jquery": "^3.3.1",
