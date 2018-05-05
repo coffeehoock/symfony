@@ -1,3 +1,3 @@
  $('.container')
- .css({color: 'red'})
- .html('some text')
+     .css({color: 'red'})
+     .html('some text');
