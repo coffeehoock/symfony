@@ -18,7 +18,7 @@
     {% endblock %}
 </head>
 <body>
-<div class="container" id="react">
+<div class="container">
     {% block body %}
         {% include 'header.html.twig' only %}
 
@@ -28,11 +28,11 @@
         {% if foo is null %}
             {% include 'content/home.html.twig' %}
         {% endif %}
-
+          {% block content %}{% endblock %}
 
         {{ asset('../') }}
-
-
+        {#<div id="react"></div>#}
+        {#<div id="react"></div>#}
         {% include 'footer.html.twig' only %}
     {% endblock %}
 </div>{#container#}
