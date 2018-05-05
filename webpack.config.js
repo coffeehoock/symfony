@@ -26,17 +26,9 @@ Encore
     // .addEntry('js/app', './assets/js/app.js')
     .addStyleEntry('css/app', './assets/sass/app.sass')
 
-    // uncomment if you use Sass/SCSS files
-    // .enableSassLoader()
-
-    // uncomment for legacy applications that require $/jQuery as a global variable
-    .autoProvidejQuery({
-        $: 'jquery',
-        jQuery: 'jquery'
-    })
-
     // Enable React/JSX (babel-preset-react)
-    // .enableReactPreset()
+    .enableReactPreset()
+    .enablePreactPreset()
 
     // Enable ES6
     .configureBabel((conf) => {
@@ -45,6 +37,12 @@ Encore
                 browsers: "> 10%",
             }
         };
+    })
+
+    // uncomment for legacy applications that require $/jQuery as a global variable
+    .autoProvidejQuery({
+        $: 'jquery',
+        jQuery: 'jquery'
     })
 
     .enableBuildNotifications();
