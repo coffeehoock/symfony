@@ -8,6 +8,9 @@
         "coffeescript": "^2.3.0",
         "node-sass": "^4.9.0",
         "postcss-loader": "^2.1.4",
+        "prop-types": "^15.6.1",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
         "sass-loader": "^7.0.1",
         "webpack-notifier": "^1.6.0"
     },

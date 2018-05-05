@@ -5,15 +5,13 @@
 #     again: require "./cup2"
 
 import './jq.js'
+import './react.jsx'
+import coffee from './test.coffee'
+
 window.$ = window.jQuery = require 'jquery'
 
 
-class evalAsync
-	contain: ( @nme ,@ge ) ->
-		sun = ->
-			return
-				a: 3
-				s: 4
-	goel: () ->
+
+
 
 
