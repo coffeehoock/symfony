@@ -8,7 +8,10 @@ import './jq.js'
 import './react.jsx'
 import coffee from './test.coffee'
 
-window.$ = window.jQuery = require 'jquery'
+# window.$ = window.jQuery = require 'jquery'
+# require 'react'
+# require 'react-dom'
+
 
 
 

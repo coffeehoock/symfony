@@ -36,7 +36,7 @@ Encore
     })
 
     // Enable React/JSX (babel-preset-react)
-    .enableReactPreset()
+    // .enableReactPreset()
 
     // Enable ES6
     .configureBabel((conf) => {
