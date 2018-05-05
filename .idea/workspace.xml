@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/coffee/app.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/assets/coffee/app.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/coffee/react.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/coffee/react.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Global.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Global.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="react.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="react.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="116">
+              <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/coffee/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -166,11 +158,11 @@
         <option value="$PROJECT_DIR$/start" />
         <option value="$PROJECT_DIR$/TUT.symphony.sh" />
         <option value="$PROJECT_DIR$/assets/coffee/test.coffee" />
-        <option value="$PROJECT_DIR$/assets/coffee/react.jsx" />
         <option value="$PROJECT_DIR$/templates/Global.html.twig" />
         <option value="$PROJECT_DIR$/assets/coffee/react.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/assets/coffee/app.coffee" />
+        <option value="$PROJECT_DIR$/assets/coffee/react.jsx" />
       </list>
     </option>
   </component>
@@ -283,7 +275,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1921" />
+    <option name="x" value="-1" />
     <option name="y" value="-11" />
     <option name="width" value="1922" />
     <option name="height" value="1092" />
@@ -486,7 +478,7 @@
       <workItem from="1525427787923" duration="13272000" />
       <workItem from="1525442537497" duration="3459000" />
       <workItem from="1525512077485" duration="8131000" />
-      <workItem from="1525525609389" duration="2674000" />
+      <workItem from="1525525609389" duration="2943000" />
     </task>
     <task id="LOCAL-00001" summary="coreected">
       <created>1525258012151</created>
@@ -604,7 +596,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124852000" />
+    <option name="totallyTimeSpent" value="125121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +608,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1921" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5064171" side_tool="true" visible="true" weight="0.3379092" />
@@ -901,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/coffee/test.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -918,7 +903,14 @@
     <entry file="file://$PROJECT_DIR$/assets/coffee/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
         </state>
       </provider>
     </entry>

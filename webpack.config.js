@@ -27,8 +27,8 @@ Encore
     .addStyleEntry('css/app', './assets/sass/app.sass')
 
     // Enable React/JSX (babel-preset-react)
-    .enableReactPreset()
-    .enablePreactPreset()
+    // .enableReactPreset()
+    // .enablePreactPreset()
 
     // Enable ES6
     .configureBabel((conf) => {
@@ -40,10 +40,10 @@ Encore
     })
 
     // uncomment for legacy applications that require $/jQuery as a global variable
-    .autoProvidejQuery({
-        $: 'jquery',
-        jQuery: 'jquery'
-    })
+    // .autoProvidejQuery({
+    //     $: 'jquery',
+    //     jQuery: 'jquery'
+    // })
 
     .enableBuildNotifications();
 
