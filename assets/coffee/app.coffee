@@ -11,8 +11,9 @@ ReactDOM = window.ReactDOM = require 'react-dom'
 #import React from 'react'
 #import {render} from 'react-dom'
 
+#import './jsx.js'
+#import './jsx.js'
 import './react.jsx'
-import './jq.js'
 import coffee from './test.coffee'
 
 

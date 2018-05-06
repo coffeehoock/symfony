@@ -21,10 +21,14 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production",
-        "go": "echo './git.upload' | bash"
+        "go": "echo 'rm -rf var/cache/* && rm -rf var/log/* &' | bash"
     },
     "dependencies": {
+        "create-react-class": "^15.6.3",
         "jquery": "^3.3.1",
-        "material-ui": "^0.20.0"
+        "jsx": "^0.9.89",
+        "material-ui": "^0.20.0",
+        "react-router": "^4.2.0",
+        "react-router-dom": "^4.2.2"
     }
 }

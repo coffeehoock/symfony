@@ -12,7 +12,7 @@ class TController extends Controller
      */
     public function home()
     {
-        return $this->render('Global.html.twig', [
+        return $this->render('content/home.html.twig', [
             'controller_name' => 'TController',
         ]);
         
