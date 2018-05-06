@@ -24,7 +24,7 @@ const PlayerAPI = {
         const isPlayer = p => p.number === id
         return this.players.find(isPlayer)
     }
-}
+};
 
 // The FullRoster iterates over all of the players and creates
 // a link to their profile page.
@@ -40,7 +40,7 @@ const FullRoster = () => (
             }
         </ul>
     </div>
-)
+);
 
 // The Player looks up the player using the number parsed from
 // the URL's pathname. If no player is found with the given
@@ -59,7 +59,7 @@ const Player = (props) => {
             <Link to='/roster'>Back</Link>
         </div>
     )
-}
+};
 
 // The Roster component matches one of two different routes
 // depending on the full pathname
@@ -68,7 +68,7 @@ const Roster = () => (
         <Route exact path='/roster' component={FullRoster}/>
         <Route path='/roster/:number' component={Player}/>
     </Switch>
-)
+);
 
 const Schedule = () => (
     <div>
@@ -78,13 +78,13 @@ const Schedule = () => (
             <li>6/14 @ United</li>
         </ul>
     </div>
-)
+);
 
 const Home = () => (
     <div>
         <h1>Welcome to the Tornadoes Website!</h1>
     </div>
-)
+);
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -99,7 +99,7 @@ const Main = () => (
             <Route path='/schedule' component={Schedule}/>
         </Switch>
     </main>
-)
+);
 
 // The Header creates links that can be used to navigate
 // between routes.
@@ -113,14 +113,14 @@ const Header = () => (
             </ul>
         </nav>
     </header>
-)
+);
 
 const App = () => (
     <div>
         <Header />
         <Main />
     </div>
-)
+);
 
 // This demo uses a HashRouter instead of BrowserRouter
 // because there is no server to match URLs

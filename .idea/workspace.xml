@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/coffee/react.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/coffee/react.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,8 @@
       <file leaf-file-name="react.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-406">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="261">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -47,15 +48,13 @@
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1113" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router-dom/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="1769">
               <caret line="61" column="12" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="12" />
             </state>
           </provider>
@@ -66,15 +65,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -91,11 +81,11 @@
       <file leaf-file-name="TController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/TController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="261">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
-                <element signature="e#232#386#0#PHP" expanded="true" />
-                <element signature="e#431#556#0#PHP" expanded="true" />
+                <element signature="e#232#392#0#PHP" expanded="true" />
+                <element signature="e#437#562#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,7 +103,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="754">
               <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
@@ -157,7 +147,7 @@
       <find>server</find>
       <find>Proxy</find>
       <find>;</find>
-      <find>#global-logo_footer img</find>
+      <find />
       <find>getWebpackConfig</find>
       <find>Hello</find>
       <find>world</find>
@@ -356,6 +346,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="coffee" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="@types" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="@types" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files">
           <expand>
@@ -421,10 +465,6 @@
               <item name="templates" type="cbb8eebc:String" user="templates" />
               <item name="content" type="cbb8eebc:String" user="content" />
             </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -438,60 +478,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="symfony" type="cbb8eebc:String" user="symfony" />
               <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="coffee" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="@types" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="@types" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -593,7 +579,8 @@
       <workItem from="1525442537497" duration="3459000" />
       <workItem from="1525512077485" duration="8131000" />
       <workItem from="1525525609389" duration="17953000" />
-      <workItem from="1525595810820" duration="22641000" />
+      <workItem from="1525595810820" duration="23258000" />
+      <workItem from="1525625120568" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="coreected">
       <created>1525258012151</created>
@@ -711,7 +698,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162772000" />
+    <option name="totallyTimeSpent" value="164402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,22 +711,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1921" y="-11" width="1922" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.28930482" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5096257" side_tool="true" visible="true" weight="0.3368532" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51016045" side_tool="true" visible="true" weight="0.3379092" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32994652" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49037433" visible="true" weight="0.3368532" />
-      <window_info anchor="bottom" id="TypeScript" order="0" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.2855615" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32994652" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49625668" weight="0.32946146" />
       <window_info id="Structure" order="1" sideWeight="0.32283464" side_tool="true" weight="0.26898396" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.48983958" visible="true" weight="0.3379092" />
       <window_info id="Favorites" order="3" sideWeight="0.5007874" side_tool="true" weight="0.25614974" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39915523" />
+      <window_info anchor="bottom" id="TypeScript" order="0" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -751,14 +736,14 @@
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49625668" weight="0.32946146" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info id="Favorites" order="3" sideWeight="0.5007874" side_tool="true" weight="0.25614974" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.27540106" />
       <window_info id="Structure" order="1" sideWeight="0.32283464" side_tool="true" weight="0.26898396" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -766,6 +751,7 @@
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="TypeScript" order="0" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49946523" weight="0.32946146" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32946146" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="15" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="right" x="0" y="0" width="430" height="892" id="Documentation" order="4" side_tool="true" weight="0.32994652" />
@@ -773,11 +759,11 @@
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49572194" visible="true" weight="0.33579725" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50427806" side_tool="true" visible="true" weight="0.33579725" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39915523" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info id="Favorites" order="3" sideWeight="0.5007874" side_tool="true" weight="0.25614974" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -928,15 +914,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/build/assets/coffee/jsx.js.js" />
-    <entry file="file://$PROJECT_DIR$/assets/coffee/jsx.js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4350">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/coffee/jsx.js.js" />
     <entry file="file://$PROJECT_DIR$/assets/coffee/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -988,7 +966,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="754">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
@@ -1021,17 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/TController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#232#386#0#PHP" expanded="true" />
-            <element signature="e#431#556#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1042,22 +1009,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router-dom/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/TController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#232#392#0#PHP" expanded="true" />
+            <element signature="e#437#562#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113" />
-      </provider>
-    </entry>
-    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router-dom/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1070,8 +1046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="261">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
