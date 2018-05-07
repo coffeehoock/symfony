@@ -17,13 +17,13 @@ class TController extends Controller
         ]);
         
     }
-	/**
-	 * @Route("/news", name="news")
-	 */
-	public function news()
-	{
-	  return $this->render('content/news.html.twig', [
-		'controller_name' => 'TController',
-	  ]);
-	}
+    /**
+     * @Route("/news", name="news")
+     */
+    public function news()
+    {
+      return $this->render('content/news.html.twig', [
+        'controller_name' => 'TController',
+      ]);
+    }
 }

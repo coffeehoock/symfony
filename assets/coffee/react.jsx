@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import createClass from 'create-react-class'
 
-import {BrowserRouter as Router ,Route ,Link ,browserHistory ,Switch} from 'react-router-dom'
+import {BrowserRouter as Router ,Route ,Link ,browserHistory ,Switch ,Redirect} from 'react-router-dom'
 
 
 
@@ -108,7 +108,7 @@ const Header = () => (
         <nav>
             <ul>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/news'>News</Link></li>
+                <li><Link to='/roster'>Roster</Link></li>
                 <li><Link to='/schedule'>Schedule</Link></li>
             </ul>
         </nav>
@@ -119,8 +119,7 @@ const App = () => (
     <div>
         <Header />
         <Main />
-    </div>
-);
+    </div>);
 
 // This demo uses a HashRouter instead of BrowserRouter
 // because there is no server to match URLs

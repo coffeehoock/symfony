@@ -22,17 +22,8 @@
     {% block body %}
         {% include 'header.html.twig' only %}
 
-        {% set foo = app.request.getRequestUri() %}
-        {{ foo }}
-        {{ app.request.uri }}
-        {% if foo is null %}
-            {% include 'content/home.html.twig' %}
-        {% endif %}
-          {% block content %}{% endblock %}
+            {% block content %}{% endblock %}
 
-        {{ asset('../') }}
-        {#<div id="react"></div>#}
-        {#<div id="react"></div>#}
         {% include 'footer.html.twig' only %}
     {% endblock %}
 </div>{#container#}

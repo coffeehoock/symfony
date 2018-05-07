@@ -1,4 +1,6 @@
-import './coffee/react'
+// import './coffee/react'
+import './coffee/app.coffee'
+
 
 // var React = require('react');
 // var ReactDOM = require('react-dom');

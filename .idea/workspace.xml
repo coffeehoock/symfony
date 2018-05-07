@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="" />
+    <list default="true" id="b64d700a-102e-47aa-bc39-59ef3b0c986e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/index.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/coffee/app.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/assets/coffee/app.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/coffee/jq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/coffee/react.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/coffee/react.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/coffee/test.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Global.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Global.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/content/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/content/news.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/news.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,37 +46,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="react.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="12" selection-start-line="12" selection-end-line="26" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router/index.js">
+      <file leaf-file-name="app.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/coffee/app.coffee">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router-dom/index.js">
+      <file leaf-file-name="news.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/content/news.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1769">
-              <caret line="61" column="12" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Global.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Global.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="116">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -70,49 +64,19 @@
         <entry file="file://$PROJECT_DIR$/templates/content/home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/TController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="232">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="e#232#392#0#PHP" expanded="true" />
                 <element signature="e#437#562#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/content/news.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="54" />
-              <folding>
-                <marker date="1525609334289" expanded="true" signature="28:97" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RewriteCond</find>
       <find>public</find>
       <find>services</find>
       <find>path</find>
@@ -160,6 +123,7 @@
       <find>browserHistory</find>
       <find>Router</find>
       <find>Schedule</find>
+      <find>getAttribute</find>
     </findStrings>
     <replaceStrings>
       <replace>index.php</replace>
@@ -207,18 +171,19 @@
         <option value="$PROJECT_DIR$/assets/coffee/test.coffee" />
         <option value="$PROJECT_DIR$/assets/coffee/react.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/assets/coffee/app.coffee" />
         <option value="$PROJECT_DIR$/assets/coffee/jsx.js" />
         <option value="$PROJECT_DIR$/public/build/js/app.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/templates/footer.html.twig" />
         <option value="$PROJECT_DIR$/templates/header.html.twig" />
-        <option value="$PROJECT_DIR$/assets/index.js" />
-        <option value="$PROJECT_DIR$/templates/Global.html.twig" />
-        <option value="$PROJECT_DIR$/templates/content/home.html.twig" />
-        <option value="$PROJECT_DIR$/templates/content/news.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/TController.php" />
         <option value="$PROJECT_DIR$/assets/coffee/react.jsx" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/assets/index.js" />
+        <option value="$PROJECT_DIR$/assets/index.coffee" />
+        <option value="$PROJECT_DIR$/assets/coffee/app.coffee" />
+        <option value="$PROJECT_DIR$/templates/content/news.html.twig" />
+        <option value="$PROJECT_DIR$/templates/content/home.html.twig" />
+        <option value="$PROJECT_DIR$/templates/Global.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/TController.php" />
       </list>
     </option>
   </component>
@@ -331,15 +296,15 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1921" />
-    <option name="y" value="-11" />
-    <option name="width" value="1922" />
-    <option name="height" value="1092" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-6" />
+    <option name="width" value="1920" />
+    <option name="height" value="1086" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
-      <autoscrollFromSource Scope="true" />
+      <autoscrollFromSource Scope="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -404,22 +369,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="symfony" type="cbb8eebc:String" user="symfony" />
             </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="Controller" type="cbb8eebc:String" user="Controller" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -432,17 +381,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-              <item name="coffee" type="cbb8eebc:String" user="coffee" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
               <item name="src" type="cbb8eebc:String" user="src" />
             </path>
             <path>
@@ -450,17 +388,6 @@
               <item name="symfony" type="cbb8eebc:String" user="symfony" />
               <item name="src" type="cbb8eebc:String" user="src" />
               <item name="Controller" type="cbb8eebc:String" user="Controller" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="symfony" type="cbb8eebc:String" user="symfony" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-              <item name="content" type="cbb8eebc:String" user="content" />
             </path>
           </expand>
           <select />
@@ -577,7 +504,8 @@
       <workItem from="1525512077485" duration="8131000" />
       <workItem from="1525525609389" duration="17953000" />
       <workItem from="1525595810820" duration="23258000" />
-      <workItem from="1525625120568" duration="1328000" />
+      <workItem from="1525625120568" duration="8499000" />
+      <workItem from="1525687841552" duration="8816000" />
     </task>
     <task id="LOCAL-00001" summary="coreected">
       <created>1525258012151</created>
@@ -695,7 +623,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164717000" />
+    <option name="totallyTimeSpent" value="180704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,18 +635,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1921" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="-1920" y="-6" width="1920" height="1086" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.28930482" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51016045" side_tool="true" visible="true" weight="0.3379092" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32994652" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5117647" side_tool="true" visible="true" weight="0.33896515" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946523" weight="0.32946146" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4882353" visible="true" weight="0.33896515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.2930481" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32994652" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49465242" weight="0.32946146" />
       <window_info id="Structure" order="1" sideWeight="0.32283464" side_tool="true" weight="0.26898396" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.48983958" visible="true" weight="0.3379092" />
       <window_info id="Favorites" order="3" sideWeight="0.5007874" side_tool="true" weight="0.25614974" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39915523" />
       <window_info anchor="bottom" id="TypeScript" order="0" sideWeight="0.49946523" weight="0.32946146" />
@@ -733,22 +663,21 @@
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49625668" weight="0.32946146" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6771653" visible="true" weight="0.27540106" />
       <window_info id="Structure" order="1" sideWeight="0.32283464" side_tool="true" weight="0.26898396" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="TypeScript" order="0" sideWeight="0.49946523" weight="0.32946146" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49946523" weight="0.32946146" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32946146" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="15" sideWeight="0.49946523" weight="0.32946146" />
       <window_info anchor="right" x="0" y="0" width="430" height="892" id="Documentation" order="4" side_tool="true" weight="0.32994652" />
@@ -756,7 +685,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49572194" visible="true" weight="0.33579725" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50427806" side_tool="true" visible="true" weight="0.33579725" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946146" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39915523" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49946523" weight="0.32946146" />
@@ -790,16 +719,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="307" column="17" lean-forward="true" selection-start-line="307" selection-start-column="17" selection-end-line="307" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/lib/errors.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/scripts/build.js" />
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php" />
     <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
@@ -884,24 +803,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx" />
-    <entry file="file://$PROJECT_DIR$/assets/coffee/test.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cache.clean">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="18" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/coffee/jq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -912,31 +817,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/build/assets/coffee/jsx.js.js" />
     <entry file="file://$PROJECT_DIR$/assets/coffee/jsx.js.js" />
-    <entry file="file://$PROJECT_DIR$/assets/coffee/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152627">
-          <caret line="34878" column="25" selection-start-line="34878" selection-start-column="25" selection-end-line="34878" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-dom/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -961,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -982,51 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content/news.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content/home.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="54" />
-          <folding>
-            <marker date="1525609334289" expanded="true" signature="28:97" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router-dom/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1769">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/TController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#232#392#0#PHP" expanded="true" />
-            <element signature="e#437#562#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -1034,19 +866,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Global.html.twig">
+    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router/Router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="754">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/UBUNTU/lowchat/desktop/symfony/node_modules/react-router-dom/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/coffee/test.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/coffee/jq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/coffee/react.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="12" selection-start-line="12" selection-end-line="26" selection-end-column="2" />
+        <state relative-caret-position="58">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/index.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/content/news.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/content/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Global.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1525712282619" expanded="true" signature="61:130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3190">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1257">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/coffee/app.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/TController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#232#392#0#PHP" expanded="true" />
+            <element signature="e#437#562#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

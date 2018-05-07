@@ -29,7 +29,7 @@ Encore
     .addStyleEntry('css/app', './assets/sass/app.sass')
 
     // Enable React/JSX (babel-preset-react)
-    .enableReactPreset()
+    // .enableReactPreset()
 
 
     // Enable ES6
