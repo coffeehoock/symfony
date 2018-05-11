@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Home;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -12,10 +13,14 @@ class TController extends Controller
      */
     public function home()
     {
+        $posts = $this->getDoctrine()
+            ->getRepository(Home::class)
+            ->findAll();
+
         return $this->render('content/home.html.twig', [
-            'controller_name' => 'TController',
+            'posts'    => $posts[0],
+            'postslol' => $posts[1],
         ]);
-        
     }
     /**
      * @Route("/news", name="news")
@@ -25,5 +30,14 @@ class TController extends Controller
       return $this->render('content/news.html.twig', [
         'controller_name' => 'TController',
       ]);
+    }
+    /**
+     * @Route("/about", name="about")
+     */
+    public function about()
+    {
+        return $this->render('content/about.html.twig', [
+            'controller_name' => 'TController',
+        ]);
     }
 }

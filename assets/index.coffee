@@ -14,4 +14,4 @@
 #import './jsx.js'
 #import './jsx.js'
 #import './react.jsx'
-#import coffee from './test.coffee'
+import coffee from './test.coffee'

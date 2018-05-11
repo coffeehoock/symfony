@@ -13,21 +13,54 @@
     {% endblock %}
     {% block CSS %}
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Play" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico|Play" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans+Condensed:300|Pacifico|Play" rel="stylesheet">
+
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
         <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
     {% endblock %}
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     {% block body %}
-        {% include 'header.html.twig' only %}
+        {% block globalInclude %}
+            <header>
+                <div id="global-logo" class="centred">
+                    <img src="http://detectfire.info/public/frontend/img/fire.png" alt="">
+                </div>
+                {% block menu %}
+                    <div id="link">
+                        {% block home %}
+                            <a class="home" href="{{ path('home') }}">home</a>
+                        {% endblock %}
+                        {% block news %}
+                            <a class="news" href="{{ path('news') }}">news</a>
+                        {% endblock %}
+                        {% block about %}
+                            <a class="about" href="{{ path('about') }}">about</a>
+                        {% endblock %}
+                    </div>
+                {% endblock %}
+            </header>
+        {% endblock %}
 
-            {% block content %}{% endblock %}
+        {#{% include 'header.html.twig' %}#}
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
 
-        {% include 'footer.html.twig' only %}
     {% endblock %}
 </div>{#container#}
-
+    {% block footer %}
+        <footer>
+             {{ block('menu')}}
+            {% endblock %}
+            <div id="global-logo_footer" class="centred">
+                <img src="http://detectfire.info/public/frontend/img/fire.png" alt="">
+            </div>
+        </footer>
     {% block JS %}
             {#<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>#}
             <script src="{{ asset('build/js/app.js') }}"></script>
@@ -36,4 +69,4 @@
     {% endblock %}
 </body>
 </html>
-{#{{ dump() }}#}
+{{ dump() }}

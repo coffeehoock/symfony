@@ -1,7 +1,18 @@
 {% extends 'Global.html.twig' %}
-
+    {% block home %}
+        <p>home</p>
+    {% endblock %}
 {% block content %}
+<div class="preview"></div>
     <div>
-        <h1>HOME</h1>
-    </div>
+
+        {#{% for post in posts %}#}
+            {#{{ post.info }}#}
+        {#{% endfor %}#}
+
+    {{ posts.info|raw }}
+    {{ postslol.info }}
+        {#<h1>хотите духовно развиваится ?</h1>#}
+        {#<p>у нас есть <em>много практик</em> для вас</p>#}
+        {#<p>посищайте наш сайт и вы многое узнаете</p>#}
 {% endblock %}
